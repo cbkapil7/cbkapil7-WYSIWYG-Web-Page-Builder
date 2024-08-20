@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toolbar {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.canvas {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-component, .image-component, .button-component {
+  margin: 10px 0;
+}
